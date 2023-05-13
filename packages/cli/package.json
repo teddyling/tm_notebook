@@ -1,6 +1,6 @@
 {
   "name": "tm_notebook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "files": [
     "dist"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tm_notebook/local-client": "^1.0.0"
+    "@tm_notebook/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "@tm_notebook/local-api": "^1.0.0",
+    "@tm_notebook/local-api": "^1.0.1",
     "@types/node": "^20.1.2",
     "commander": "7.0.0",
     "esbuild": "0.8.26"

@@ -1,0 +1,29 @@
+{
+  "name": "tm_notebook",
+  "version": "1.0.0",
+  "description": "",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": "dist/index.js",
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "esbuild src/index.ts --platform=node --outfile=dist/index.js --bundle --minify --define:process.env.NODE_ENV=\\\"production\\\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tm_notebook/local-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "@tm_notebook/local-api": "^1.0.0",
+    "@types/node": "^20.1.2",
+    "commander": "7.0.0",
+    "esbuild": "0.8.26"
+  },
+  "gitHead": "268c15f9c72092c06c3ccc8991dee72196bcb914"
+}

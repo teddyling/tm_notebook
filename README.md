@@ -11,6 +11,15 @@ Tm-notebook is a web-based **JavaScript compiler** that can be used online or in
 
 - [@teddyling](https://www.github.com/https://github.com/teddyling)
 
+## Technologies and Frameworks
+Tm-notebook was developed using Node.js and TypeScript.
+
+
+Tm-notebook used the following framework:
+- **ReactJS**
+- **React Redux**
+- **ExpressJS**
+
 
 
 

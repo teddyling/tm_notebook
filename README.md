@@ -2,7 +2,7 @@
 # Tm-notebook
 
 
-Tm-notebook is a web-based **JavaScript compiler** that can be used online or in a local environment. It has the capability to compile JavaScript code in **real-time** and display the results. Additionally, it supports **importing npm packages** and **rendering JSX code**. Visit [tm-notebook](https://tm-notebook.com/) and give it a try!
+Tm-notebook is a web-based **JavaScript editor** that can be used online or in a local environment. It has the capability to compile JavaScript code in **real-time** and display the results. Additionally, it supports **importing npm packages** and **rendering JSX code**. Visit [tm-notebook](https://tm-notebook.com/) and give it a try!
 
 
 
